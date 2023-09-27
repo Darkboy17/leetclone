@@ -16,9 +16,10 @@ const AuthPage: React.FC<AuthPageProps> = () => {
   const router = useRouter();
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const authModal = useRecoilValue(authModalState);
-  let animationId: number;
+  
 
   useEffect(() => {
+    let animationId: number;
     // Redirect if user is authenticated
     if (user) {
       router.push("/");
