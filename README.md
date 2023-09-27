@@ -6,7 +6,7 @@ This project is a web application built with React, TypeScript, TailwindCSS, and
 ## Features
 **User Authentication**: The application uses Firebase for user authentication. It checks the authentication state of the user and redirects them to the home page if they are already authenticated.
 
-**Particle Effect**: The application uses a custom Particle effect for the background of the authentication page. This effect is drawn on a canvas element using the Effect class. This was completely done with Vanilla JS and no graphic libraries were used.
+**Particle Effect**: The application uses a custom Particle effect for the landing page. It is completely written with Vanilla JS and no graphic libraries were used. Users can also interact with the Particles forming the message for interactivity purposes only.
 
 **Responsive Design**: The application is designed to be responsive and adjusts the layout based on the window size.
 
