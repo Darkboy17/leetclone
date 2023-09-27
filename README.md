@@ -1,38 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## LeetClone
+This project is a web application built with React, TypeScript, TailwindCSS, and Next.js, and also uses Firebase for authentication and storing credentials and important data as well. The application is designed to mimic the functionality of LeetCode, a popular platform for practicing coding problems.
 
-## Getting Started
+![leetclone_x](https://github.com/Darkboy17/leetclone/assets/26376179/b0aa0b73-2f3a-4c1f-95b8-f49b21174629)
 
-First, run the development server:
+## Features
+**User Authentication**: The application uses Firebase for user authentication. It checks the authentication state of the user and redirects them to the home page if they are already authenticated.
 
+**Particle Effect**: The application uses a custom Particle effect for the background of the authentication page. This effect is drawn on a canvas element using the Effect class. This was completely done with Vanilla JS and no graphic libraries were used.
+
+**Responsive Design**: The application is designed to be responsive and adjusts the layout based on the window size.
+
+
+## Installation
+To install the project, you need to have Node.js and npm installed on your machine. Then, you can clone the repository and install the dependencies using npm:
+```bash
+git clone <repository-url>
+cd leetclone
+npm install
+```
+To start the development server, you can run:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
+Then open your browser, and go to:
+```bash
+http://localhost:3000/auth
+```
+## Contributing
+Contributions are welcome. Please fork the repository and create a pull request with your changes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+This is a personal project and has no license associated with it.
