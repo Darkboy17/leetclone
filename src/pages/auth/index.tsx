@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
-import { Effect } from "./Particle";
+import { Effect } from "../../utils/Particle";
 import { authModalState } from "@/atoms/authModalAtom";
 import AuthModal from "@/components/Modals/AuthModal";
 import Navbar from "@/components/Navbar/Navbar";
