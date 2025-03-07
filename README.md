@@ -1,7 +1,7 @@
 ## LeetClone
 This project is a web application built with React, TypeScript, TailwindCSS, and Next.js, and also uses Firebase for authentication and storing credentials and important data as well. The application is designed to mimic the functionality of LeetCode, a popular platform for practicing coding problems.
 
-[Live Demo](leetclone-cyan.vercel.app)
+[Live Demo]([leetclone-cyan.vercel.app](https://leetclone-cyan.vercel.app)
 
 ![leetclone_x](https://github.com/Darkboy17/leetclone/assets/26376179/b0aa0b73-2f3a-4c1f-95b8-f49b21174629)
 
